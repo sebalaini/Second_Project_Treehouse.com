@@ -1,0 +1,33 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul
+{
+list-style-type: none;
+}
+
+img {
+  max-width: 50%;
+}
+
+#top {
+  display:block; /* to put element on its own line */
+  text-align:left; /* for some reason i think your back to top button would be on the right side */
+}

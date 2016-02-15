@@ -1,33 +1,149 @@
-/**********************************
+/***************
 GENERAL
-***********************************/
+***************/
 
-body {
-  font-family: 'Open Sans', sans-serif;
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
 }
 
 #wrapper {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 0 5%;
+  	max-width: 1300px;
+  	margin: 0 auto;
+  	padding: 0 5%;
 }
 
 
 a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+  	color: black;
 }
 
-ul
-{
-list-style-type: none;
+ul {
+	list-style-type: none;
 }
+
+
+
+/***************
+HEADER
+***************/
+
+.header {
+	padding-top: 10px;
+	background-color: #ccffff;
+}
+
+h1 {
+	margin-top: 5px;
+	text-align: center;
+	font-size: 1.7em;
+}
+
+#logo {
+  	display: block;
+  	max-width: 300px;
+  	margin: 30px auto;
+  	border-radius: 100%;
+}
+
+p {
+	text-align: center;
+	margin: 10px auto;
+	padding: 10px 5%;
+}
+
+.intro {
+	padding: 40px;
+}
+
+
+
+/***************
+NAV
+***************/
+
+.nav {
+  	text-align: center;
+  	padding: 10px;
+  	margin: 5px 0 20px;
+}
+
+.nav ul {
+  	list-style: none;
+}
+
+.nav li a {
+	display: block;
+  	padding: 12px;
+  	margin: 5px auto;
+}
+
+/***************
+BODY
+***************/
 
 img {
-  max-width: 50%;
+  	max-width: 90%;  
+}
+
+h2 {
+	text-align: center;
+	padding: 5px 0;
+}
+
+.gallery {
+  	margin: 0;
+  	padding: 0;
+  	list-style: none;
+}
+
+.gallery li {
+  	width: 80%;
+  	margin: 0 auto;
+  	text-align: center;
+  	padding-top: 20px;
+}
+
+.gallery li a p {
+  	margin: 0;
+  	padding: 0 5% 8%;
+}
+
+
+
+/***************
+CONTACT
+***************/
+
+#contact {
+	clear: both;
+}
+
+#contact h2 {
+	padding: 15px;
+	margin: 50px 0 5px;
+}
+
+
+
+/***************
+FOOTER
+***************/
+
+.foot {
+	clear: both;
+}
+
+.foot-name {
+	float: left;
 }
 
 #top {
-  display:block; /* to put element on its own line */
-  text-align:left; /* for some reason i think your back to top button would be on the right side */
+	float: right;
+  	display:block; /* to put element on its own line */
+  	text-align:left; /* for some reason i think your back to top button would be on the right side */
 }
+
+
+

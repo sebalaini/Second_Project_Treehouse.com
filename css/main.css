@@ -7,6 +7,8 @@ p {
 	font-size: 0.9em;
 }
 
+
+#foot,
 #wrapper {
   	max-width: 1200px;
   	margin: 0 auto;
@@ -130,19 +132,24 @@ CONTACT
 FOOTER
 ***************/
 
-.foot {
+#foot {
 	clear: both;
+
 }
 
 .foot-name {
 	float: left;
 }
 
-#top a {
+.top a {
 	float: right;
-  	display:block; /* to put element on its own line */
-  	text-align:left; /* for some reason i think your back to top button would be on the right side */
+  	padding: 5px;
+  	margin: 5px;
 }
 
+.phone a,
+.mail a {
+	padding: 10px;
+}
 
 

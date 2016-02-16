@@ -8,7 +8,7 @@ p {
 }
 
 #wrapper {
-  	max-width: 1300px;
+  	max-width: 1200px;
   	margin: 0 auto;
   	padding: 0 5%;
 }
@@ -31,7 +31,6 @@ HEADER
 
 .header {
 	padding-top: 10px;
-	background-color: #ccffff;
 }
 
 h1 {
@@ -139,7 +138,7 @@ FOOTER
 	float: left;
 }
 
-#top {
+#top a {
 	float: right;
   	display:block; /* to put element on its own line */
   	text-align:left; /* for some reason i think your back to top button would be on the right side */

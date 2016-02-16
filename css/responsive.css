@@ -1,0 +1,120 @@
+@media screen and (min-width: 768px) {
+
+
+/***************
+HEADER
+***************/
+
+#logo {
+	display: block;
+	margin-left: 5%;
+	margin-right: 5%;
+	float: right;
+}
+
+.header {
+	margin-bottom: 15%;
+}
+
+.intro {
+	margin-top: 7%;
+}
+
+
+
+/***************
+NAV
+***************/
+
+.nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/***************
+GALLERY
+***************/
+
+.gallery {
+  margin: 0 auto;
+  padding: 0 auto;
+  list-style: none;
+}
+
+.gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+}
+
+.gallery li a p {
+  margin: 0;
+  padding: 5%;
+}
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+
+
+/***************
+HEADER y NAV
+***************/
+
+.name {
+	float: left;
+	margin-top: 25px;
+}
+
+.nav {
+	text-align: right;
+	margin-top: 10px;
+}
+
+
+
+/***************
+GALLERY
+***************/
+
+.gallery {
+  margin: 0 auto;
+  padding: 0 auto;
+  list-style: none;
+}
+
+.gallery li {
+  float: left;
+  width: 28.333%;
+  margin: 2.5%;
+}
+
+.gallery li a p {
+  margin: 0;
+  padding: 5%;
+}
+
+
+}
+
+

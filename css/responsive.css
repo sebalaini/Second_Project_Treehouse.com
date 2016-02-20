@@ -1,13 +1,3 @@
-@media screen and (min-width: 320px) {
-
-/* .foot-nav {
-	display: none;
-}
- */
- 
-}
-
-
 @media screen and (min-width: 768px) {
 
 
@@ -114,15 +104,13 @@ FOOT-NAV
 	display: none;
 }
 
-/*
-#foot {
-	border-top: 2px solid grey;
-}
-*/
-
 .foot-name {
 	float: left;
 	margin-top: 38px;
+}
+
+#contact h2 {
+	margin-top: 50px;
 }
 
 }

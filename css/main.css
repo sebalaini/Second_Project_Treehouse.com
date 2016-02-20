@@ -108,6 +108,10 @@ h2 {
   	padding-top: 20px;
 }
 
+.gallery > li {
+    height: 380px; 
+}
+
 .gallery li a p {
   	margin: 0;
   	padding: 0 5% 8%;

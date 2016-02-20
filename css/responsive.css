@@ -7,18 +7,18 @@ HEADER
 ***************/
 
 #logo {
-	display: block;
-	margin-left: 5%;
-	margin-right: 5%;
-	float: right;
+  	display: block;
+  	margin-left: 5%;
+  	margin-right: 5%;
+  	float: right;
 }
 
 .header {
-	margin-bottom: 15%;
+	 margin-bottom: 15%;
 }
 
 .intro {
-	margin-top: 7%;
+	 margin-top: 7%;
 }
 
 
@@ -29,8 +29,8 @@ NAV
 
 .nav {
   	text-align: center;
-	padding: 10px 0;
-	margin: 20px 0 0;
+  	padding: 10px 0;
+  	margin: 20px 0 0;
 }
 
 .nav ul {
@@ -78,15 +78,19 @@ GALLERY
 
 
 /***************
-FOOT-NAV
+FOOT AND FOOT-NAV
 ***************/
+
+footer {
+    border-top: 2px solid grey;
+}
 
 #foot {
 	padding: 0 2.5%
 }
 
 .foot-nav {
-	display: block;
+	 display: block;
   	text-align: right;
   	padding: 10px 0;
   	margin: 20px 0 0;
@@ -109,17 +113,17 @@ FOOT-NAV
 }
 
 .top a {
-	display: none;
+	 display: none;
 }
 
 .foot-name {
-	float: left;
-	margin-top: 38px;
-	padding-left: 0;
+	 float: left;
+	 margin-top: 38px;
+	 padding-left: 0;
 }
 
-#contact h2 {
-	margin-top: 50px;
+#contact {
+    padding-bottom: 50px;
 }
 
 }
@@ -133,17 +137,17 @@ HEADER y NAV
 ***************/
 
 header {
-	padding: 0 -2.5%;
+	 padding: 0 -2.5%;
 }
 
 .name {
-	float: left;
-	margin-top: 25px;
+  	float: left;
+  	margin-top: 25px;
 }
 
 .nav {
-	text-align: right;
-	margin-top: 10px;
+  	text-align: right;
+  	margin-top: 10px;
 }
 
 
@@ -178,8 +182,12 @@ FOOTER
 ***************/
 
 .foot-name {
-	float: left;
-	margin-top: 38px;
+  	float: left;
+  	margin-top: 38px;
+}
+
+footer {
+    border-top: hidden;
 }
 
 }

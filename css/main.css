@@ -3,16 +3,17 @@ GENERAL
 ***************/
 
 .wrapper {
-  margin: 0 auto;
-  max-width: 1200px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
-* {box-sizing: border-box;
-  }
+* {
+    box-sizing: border-box;
+}
 
 p {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 0.9em;
+  	font-family: 'Open Sans', sans-serif;
+  	font-size: 0.9em;
 }
 
 a {
@@ -32,14 +33,13 @@ HEADER
 ***************/
 
 .header {
-  padding: 2.5%;
-  background: linear-gradient( #b3ffff, #fff);
+    padding: 2.5%;
 }
 
 h1 {
-	padding-left: 2%;
-	text-align: center;
-	font-size: 1.7em;
+  	padding-left: 2%;
+  	text-align: center;
+  	font-size: 1.7em;
 }
 
 #logo {
@@ -48,17 +48,17 @@ h1 {
     max-height: 200px;
   	margin: 30px auto;
   	border-radius: 100%;
-    box-shadow: 0 5px 6px #888;
+    box-shadow: 0 6px 6px #888;
 }
 
 p {
-	text-align: center;
-	margin: 10px auto;
-	padding: 10px 5%;
+  	text-align: center;
+  	margin: 10px auto;
+  	padding: 10px 5%;
 }
 
 .intro {
-	padding: 40px;
+    padding: 40px;
 }
 
 
@@ -82,6 +82,8 @@ NAV
   	padding: 12px;
   	margin: 5px auto;
 }
+
+
 
 /***************
 BODY
@@ -115,9 +117,25 @@ h2 {
 }
 
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+/***************
+EXPERIENCE
+***************/
+
+#experience {
+    clear: both;
+}
+
+#experience h2 {
+    padding: 20px;
+    margin: 50px 0 5px;
 }
 
 
@@ -127,12 +145,11 @@ CONTACT
 ***************/
 
 #contact {
-	clear: both;
+	 clear: both;
 }
 
 #contact h2 {
-	padding: 15px;
-	margin: 50px 0 5px;
+  	padding: 20px;
 }
 
 
@@ -142,25 +159,25 @@ FOOTER
 ***************/
 
 #foot {
-	clear: both;
+    clear: both;
 }
 
 .foot-name {
-	float: left;
+    float: left;
 }
 
 .top a {
-	float: right;
+    float: right;
   	padding: 5px;
   	margin: 5px;
 }
 
 .phone a,
 .mail a {
-	padding: 10px;
+    padding: 10px;
 }
 
 .foot-nav {
-  display: none;
+    display: none;
 }
 

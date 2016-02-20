@@ -71,11 +71,19 @@ GALLERY
   	padding: 5%;
 }
 
+.gallery > li {
+    height: 400px; 
+}
+
 
 
 /***************
 FOOT-NAV
 ***************/
+
+#foot {
+	padding: 0 2.5%
+}
 
 .foot-nav {
 	display: block;
@@ -107,6 +115,7 @@ FOOT-NAV
 .foot-name {
 	float: left;
 	margin-top: 38px;
+	padding-left: 0;
 }
 
 #contact h2 {
@@ -140,7 +149,7 @@ GALLERY
 ***************/
 
 .gallery {
-  	margin: 0 auto;
+  	margin: 0 -2.5%;
   	padding: 0 auto;
   	list-style: none;
 }
@@ -156,6 +165,9 @@ GALLERY
   	padding: 5%;
 }
 
+.gallery > li {
+    height: 320px; 
+}
 
 
 /***************

@@ -2,20 +2,18 @@
 GENERAL
 ***************/
 
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+* {box-sizing: border-box;
+  }
+
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.9em;
 }
-
-
-.header,
-#foot,
-#wrapper {
-  	max-width: 1200px;
-  	margin: 0 auto;
-  	padding: 0 5%;
-}
-
 
 a {
 	text-decoration: none;
@@ -34,7 +32,7 @@ HEADER
 ***************/
 
 .header {
-	padding-top: 10px;
+  padding: 2.5%;
 }
 
 h1 {
@@ -108,15 +106,16 @@ h2 {
   	padding-top: 20px;
 }
 
-.gallery > li {
-    height: 380px; 
-}
-
 .gallery li a p {
   	margin: 0;
-  	padding: 0 5% 8%;
+  	padding: 0;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 /***************
@@ -140,7 +139,6 @@ FOOTER
 
 #foot {
 	clear: both;
-
 }
 
 .foot-name {

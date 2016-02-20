@@ -88,7 +88,7 @@ FOOT-NAV
 ***************/
 
 .foot-nav {
-	
+	display: block;
   	text-align: right;
   	padding: 10px 0;
   	margin: 20px 0 0;
@@ -102,16 +102,27 @@ FOOT-NAV
 
 .foot-nav li {
   	display: inline-block;
+  	margin-bottom: 10px;
 }
 
 .foot-nav a {
   	font-weight: 800;
   	padding: 15px 10px;
-  	margin-bottom: 20px;
 }
 
 .top a {
 	display: none;
+}
+
+/*
+#foot {
+	border-top: 2px solid grey;
+}
+*/
+
+.foot-name {
+	float: left;
+	margin-top: 38px;
 }
 
 }
@@ -157,6 +168,16 @@ GALLERY
   	padding: 5%;
 }
 
+
+
+/***************
+FOOTER
+***************/
+
+.foot-name {
+	float: left;
+	margin-top: 38px;
+}
 
 }
 

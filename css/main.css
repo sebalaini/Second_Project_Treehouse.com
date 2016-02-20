@@ -8,6 +8,7 @@ p {
 }
 
 
+.header,
 #foot,
 #wrapper {
   	max-width: 1200px;
@@ -19,6 +20,7 @@ p {
 a {
 	text-decoration: none;
   	color: black;
+  	font-weight: bold;
 }
 
 ul {
@@ -152,4 +154,7 @@ FOOTER
 	padding: 10px;
 }
 
+.foot-nav {
+  display: none;
+}
 

@@ -132,6 +132,10 @@ FOOT-NAV
 HEADER y NAV
 ***************/
 
+header {
+	padding: 0 -2.5%;
+}
+
 .name {
 	float: left;
 	margin-top: 25px;
@@ -149,7 +153,6 @@ GALLERY
 ***************/
 
 .gallery {
-  	margin: 0 -2.5%;
   	padding: 0 auto;
   	list-style: none;
 }

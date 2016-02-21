@@ -14,11 +14,12 @@ HEADER
 }
 
 .header {
-	 margin-bottom: 15%;
+    margin-bottom: 15%;
+    background: #fff;
 }
 
 .intro {
-	 margin-top: 7%;
+    margin-top: 7%;
 }
 
 
@@ -31,6 +32,7 @@ NAV
   	text-align: center;
   	padding: 10px 0;
   	margin: 20px 0 0;
+    border-bottom: 2px solid grey;
 }
 
 .nav ul {
@@ -55,7 +57,6 @@ GALLERY
 ***************/
 
 .gallery {
-  	margin: 0 auto;
   	padding: 0 auto;
   	list-style: none;
 }
@@ -81,12 +82,8 @@ GALLERY
 FOOT AND FOOT-NAV
 ***************/
 
-footer {
-    border-top: 2px solid grey;
-}
-
 #foot {
-	padding: 0 2.5%
+    padding: 0 2.5%;
 }
 
 .foot-nav {
@@ -119,7 +116,7 @@ footer {
 .foot-name {
 	 float: left;
 	 margin-top: 38px;
-	 padding-left: 0;
+	 padding-left: 1%;
 }
 
 #contact {
@@ -136,8 +133,8 @@ footer {
 HEADER y NAV
 ***************/
 
-header {
-	 padding: 0 -2.5%;
+h1 {
+    padding-left: 1%;
 }
 
 .name {
@@ -148,6 +145,7 @@ header {
 .nav {
   	text-align: right;
   	margin-top: 10px;
+    border-bottom: hidden;
 }
 
 
@@ -157,7 +155,7 @@ GALLERY
 ***************/
 
 .gallery {
-  	padding: 0 auto;
+  	padding: 0 -2.5;
   	list-style: none;
 }
 

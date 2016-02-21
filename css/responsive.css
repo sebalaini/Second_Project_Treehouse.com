@@ -82,6 +82,10 @@ GALLERY
 FOOT AND FOOT-NAV
 ***************/
 
+footer {
+    border-top: 2px solid grey;
+}
+
 #foot {
     padding: 0 2.5%;
 }
@@ -116,7 +120,7 @@ FOOT AND FOOT-NAV
 .foot-name {
 	 float: left;
 	 margin-top: 38px;
-	 padding-left: 1%;
+	 padding-left: 0;
 }
 
 #contact {
@@ -132,10 +136,6 @@ FOOT AND FOOT-NAV
 /***************
 HEADER y NAV
 ***************/
-
-h1 {
-    padding-left: 1%;
-}
 
 .name {
   	float: left;

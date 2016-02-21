@@ -2,13 +2,13 @@
 GENERAL
 ***************/
 
+* {
+    box-sizing: border-box;
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 1200px;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 p {
@@ -17,7 +17,7 @@ p {
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
   	color: black;
   	font-weight: bold;
 }
@@ -92,7 +92,7 @@ BODY
 ***************/
 
 img {
-  	max-width: 95%;  
+  	max-width: 100%;  
 }
 
 h2 {

@@ -177,6 +177,7 @@ FOOTER
 .phone a,
 .mail a {
     padding: 10px;
+    font-weight: normal;
 }
 
 .foot-nav {
